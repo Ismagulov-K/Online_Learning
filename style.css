@@ -142,3 +142,70 @@
 .banner__link:first-of-type{
     grid-column-start: 6;
 }
+
+/* LEARNING */
+
+.learning{
+    margin-top: 10rem;
+    height: 33.3rem;
+    margin-bottom: 10rem;
+}
+
+.learning__title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 4.2rem;
+    line-height: 4.9rem;
+    color: #2B283A;
+    margin: 0;
+    margin-bottom: 4.9rem;
+}
+.learning__text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    color: #6B6B6B;
+}
+
+.learning__center{
+    /* display: grid; */
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Learning1.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    color: #fff;
+    height: 29.4rem;
+    text-align: center;
+}
+.learning__right-aside{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/Learning2.jpg);
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+.learning__title-card{
+    margin-top: 7.7rem;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+    
+}
+.learning__text-card{
+    font-family: Roboto;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-size: 1.8rem;
+    line-height: 2.1rem;
+    color: #F2F2F2;
+    padding: 0 6.2rem 0 6.2rem;
+}
+.learning__button{
+    transform: translateY(7.5rem);
+    margin: 0 10rem 0 10rem;
+}
